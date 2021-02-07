@@ -1,0 +1,42 @@
+body{
+font-family:arial;
+}
+
+#main-container{
+padding: 15% 20% 20% 20%;
+text-align: center;
+}
+
+#sign-in{
+    width: 70px;
+    height: 30px;
+    position:relative;
+    top: 10px;
+}
+
+a{
+    color: rgb(54, 52, 52);
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.to-right{
+    justify-self: right;
+}
+
+#search-bar{
+    width: 500px;
+}
+
+img{
+    max-width: 100%;
+    max-height: auto;
+}
